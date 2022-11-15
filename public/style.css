@@ -1,0 +1,142 @@
+/* CSS for contact.hbs file */
+
+body {
+    margin: 0;
+    padding: 0%;
+    background-image: url('./bg.svg');
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formfield {
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.41);
+    border-top: 20px solid rgb(86, 12, 12);
+    border-bottom: 20px solid rgb(86, 12, 12);
+}
+
+.formfield form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.emailfield {
+    width: 300px;
+    height: 45px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+
+.emailfield:focus {
+    outline: none;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    border: none;
+    margin-top: 50px;
+    border-radius: 10px;
+    color: white;
+    font-size: large;
+    background-color: rgb(86, 12, 12);
+    cursor: pointer;
+}
+
+/* otp.hbs styling */
+
+.main-otp {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-otp-sub {
+    background-color: rgba(255, 255, 255, 0.41);
+    width: 60%;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border: 2px solid rgb(111, 5, 5);
+}
+
+.otpform {
+    margin-top: 20px;
+    height: 60%;
+    width: 90%;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.otpform form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailfield1 {
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    background-color: aquamarine;
+    margin-top: 10px;
+}
+
+/* Styling Landing page */
+
+.success-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-page-sub {
+    width: 600px;
+    height: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile img {
+    border-radius: 20px;
+}
